@@ -1,0 +1,27 @@
+header,nav,article,footer{
+    border: 1px solid black;
+}
+
+
+
+body{
+    max-width: 80%;
+    margin: auto;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header,footer{
+    flex: 0 0 100%;
+}
+
+nav{
+    flex: 0 0 200px;
+}
+article{
+    flex: 1 1 auto;
+}

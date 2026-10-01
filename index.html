@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="urlap">
+    <meta name="keywords" content="urlap">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nagy Tamás</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Űrlap</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">Menü</a></li>
+                <li><a href="">Menü</a></li>
+                <li><a href="">Menü</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Szmélyes adatok</legend>
+                    <div class="block">
+                        <label for="nev">Név:</label>
+                        <input type="text" id="nev" name="nev" placeholder="keresztnev vezeteknev">
+                    </div>
+                    <div class="block">
+                        <label for="psw">Jelszo</label>
+                        <input type="password" id="psw" name="psw">
+                    </div>
+                    <div class="block">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="email@gmail.com">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Nem</legend>
+                    <label for="fiu">Férfi</label>
+                    <input type="radio" id="nem" name="nem">
+                    <label for="no">Nő</label>
+                    <input type="radio" id="nem" name="nem">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mi a Hobbid-többet is választhatsz</legend>
+                    <label for="foca">Foci</label>
+                    <input type="checkbox" id="foca" name="foca">
+                    <label for="kosar">Kosárlabda</label>
+                    <input type="checkbox" id="kosar" name="kosar">
+                    <label for="hockey">hockey</label>
+                    <input type="checkbox" id="hockey" name="hockey">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mi a kedvenc autód?</legend>
+                    <select id="cars" name="cars">
+                      <option value="volvo">Volvo</option>
+                      <option value="saab">Saab</option>
+                      <option value="fiat">Fiat</option>
+                      <option value="audi">Audi</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" value="Küld">
+            </form>
+        </article>
+        <footer>
+            <p>Nagy Tamás</p>
+        </footer>
+
+    </main>
+    
+</body>
+</html>
